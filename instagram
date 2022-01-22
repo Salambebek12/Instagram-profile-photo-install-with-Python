@@ -1,0 +1,10 @@
+# pip install instaloader
+
+import instaloader
+
+ig = instaloader.Instaloader
+dp = input("What's Username: ")
+
+# CODER BY Salambebek12
+
+ig.download_profile(dp, profile_pic_only = True)
